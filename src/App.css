@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 300;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.bg-swiggydark{
+    background-color: #1e2130;
+}
+
+/* ---------------------------------------------nav=------------------------------------------: */
+
+
+.nav-logo{
+    width: 16%;
+    height:16%;
+    padding: 1%;
+    cursor: pointer;
+    transition: transform .3s ease;
+   
+    
+}
+
+.nav-logo:hover{
+    transform: scale(1.1);
+    
+}
+
+.nav-div{
+    height: auto;
+    position: fixed;
+    z-index: 999;
+   background: transparent;
+}
+.nav-option{
+    font-size: 18px;
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 600;
+    cursor: pointer;
+    
+    padding-left: 3px;
+}
+
+.nav-menu-div:hover .nav-option{
+    color:orange
+}
+.nav-icon{
+   margin-right: 5px;
+}
+.nav-menu-div:hover .nav-icon{
+    color: orange;
+}
+.orange-text{
+    color:orange;
+}
+.nav-inner-div1{
+    width:30%;
+    margin-left: 4%;
+   
+}
+.nav-location-div{
+    cursor: pointer;
+}
+
+.nav-location-div:hover .nav-address{
+    color: orange;
+    border-color: orange;
+   
+
+}
+
+.nav-inner-div2{
+    width:40%;
+    margin-right: 10%;
+    
+}
+.nav-address{
+    
+   text-decoration: none;
+   border-bottom: #282c3f solid 3px;
+   height: 28px;
+   text-overflow: ellipsis;
+   color: #282c3f;
+   
+  
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ------------------------------------Nav Ended------------------------------------- */
+
+/* --------------------------------------- Home Header---------------------- */
+
+.header-card{
+    width: 280px;
+    height:280px;
+    transition: transform .3s ease;
+}
+
+.header-card:hover{
+    transform: scale(1.03);
+}
+
+.header-innerDiv{
+ 
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    flex-shrink: unset;
+    width: 90%;
+    margin-left: 5%;
+    /* border: 1px solid white; */
+
+}
+
+.home-header{
+    position: relative;
+    text-align: center;
+}
+.header-arrow-forward{
+    position: absolute;
+    width: 3.5%;
+    border-radius: 35px ;
+    height: 12%;
+    right: 6%;
+    bottom: 35%;
+    cursor: pointer;
+
+
+}
+.header-arrow-backward{
+    position: absolute;
+    width: 3.5%;
+    border-radius: 35px ;
+    height: 12%;
+    left: 6%;
+    bottom: 35%;
+    cursor: pointer;
+    /* display: none; */
+
+
+}
+
+.arrow-header{
+    margin-top: 28%;
+    width: 50%;
+    text-align: center;
+    margin-left: 2%;
+    transition: transform .3s ease;
+}
+
+.header-arrow:hover .right-arrow{
+
+    transform: translate(5px);
+
+}
+.header-arrow:hover .left-arrow{
+
+    transform: translate(-5px);
+
+}
+/* ----------------------------------------------header-end--------------------------------*/
+
+
+
+/* ----------------------------------------------section-end--------------------------------*/
+
+
+
+
